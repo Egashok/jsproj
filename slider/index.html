@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="container">
+        <div class="slider__box">
+            <div class="slider__item fade" ><img src="img/electron.jpg.crdownload" alt="" class="slider__item-img"></div>
+            <div class="slider__item fade" ><img src="img/souz.jpg" alt="" class="slider__item-img"></div>
+            <div class="slider__item fade" ><img src="img/protonjpg.jpg" alt="" class="slider__item-img"></div>
+            <div class="slider__item fade" ><img src="img/falcon.jpg" alt="" class="slider__item-img"></div>
+            <div class="slider__bottom">
+                <i id="prev" onclick="showImage(-1)"><img class="left arrow" src="img/arrow.png" alt=""></i>
+            
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div> 
+            <i id="next" onclick="showImage(1)"><img class="right arrow" src="img/arrow.png" alt=""></i>    
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
